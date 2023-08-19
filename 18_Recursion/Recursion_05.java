@@ -5,7 +5,8 @@ public class Recursion_05 {
         if (n == 1) {
             return n;
         }
-        return n + printNatural(n - 1);
+        int sum = n + printNatural(n - 1);
+        return sum;
     }
 
     public static void main(String[] args) {
