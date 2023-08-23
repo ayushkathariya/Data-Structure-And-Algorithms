@@ -1,4 +1,4 @@
-/* WAP to find first occurence of an elemnet in an array */
+/* WAP to find last occurence of an elemnet in an array */
 
 public class Recursion_09 {
     public static int lastOccurance(int arr[], int key, int i) {
